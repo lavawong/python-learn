@@ -11,5 +11,5 @@
 x = raw_input('Enter a number: ');
 x = int(x);
 if (x/2)*2 == x:
-	print 'Even';
+    print 'Even';
 else: print 'Odd'

@@ -11,12 +11,12 @@ print 'test[1:]', test[1:]
 x = 100
 divisors = ()
 for i in range(1,x):
-	if x%i == 0:
-		divisors = divisors + (i,)
-		print divisors
+    if x%i == 0:
+       divisors = divisors + (i,)
+       print divisors
 
 sum = 0
 for c in str(1957):
-	print c
-	sum += int(c)
+    print c
+    sum += int(c)
 print sum
